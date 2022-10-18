@@ -1,0 +1,24 @@
+{
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": ["test/*.ts", "test/**/*.ts", "tasks/*.ts", "*.ts"],
+      "options": {
+        "semi": false,
+        "singleQuote": true
+      }
+    },
+    {
+      "files": [
+        "contracts/core/ChainlinkMainnetPriceProvider.sol",
+        "contracts/core/ChainlinkAvalanchePriceProvider.sol",
+        "contracts/core/ChainlinkArbitrumPriceProvider.sol",
+        "contracts/core/ChainlinkPolygonPriceProvider.sol"
+      ],
+      "options": {
+        "printWidth": 140
+      }
+    }
+  ],
+  "bracketSpacing": false
+}
